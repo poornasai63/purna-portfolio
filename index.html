@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="The portfolio of Kattumukkala Poornasai, a web developer building thoughtful digital experiences."
+    />
+    <meta name="theme-color" content="#111827" />
+    <title>Kattumukkala Poornasai — Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navigation container" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Kattumukkala Poornasai home">KP<span>.</span></a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="navigation-links"
+        >
+          <span></span><span></span>
+        </button>
+        <div class="navigation-links" id="navigation-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a class="nav-contact" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-grid container">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="status-dot"></span> WEB DEVELOPER</p>
+            <h1>Hi, I’m Kattumukkala<br />Poornasai<span class="accent">.</span></h1>
+            <p class="hero-intro">
+              I build thoughtful digital experiences with clean code and a focus on the people
+              using them.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-light" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+              <a class="text-link light-link" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+          <div class="hero-note" aria-hidden="true">
+            <div class="note-mark">P<span>S</span></div>
+            <p>Curious by nature.<br />Thoughtful by design.</p>
+            <span class="note-line"></span>
+          </div>
+          <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="container section-grid">
+          <div class="section-label">
+            <span class="section-number">01</span>
+            <span>ABOUT ME</span>
+          </div>
+          <div class="section-content">
+            <p class="section-kicker">A little about me</p>
+            <h2>Making the web feel<br class="desktop-break" /> a little more human.</h2>
+            <div class="about-copy">
+              <p>
+                I’m Poornasai, a developer who enjoys turning ideas into clear, useful web
+                experiences. I work across the front end and back end, bringing care to every
+                detail—from the first sketch to the finished feature.
+              </p>
+              <p>
+                I’m always learning, building, and looking for better ways to solve real problems
+                with technology.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="container section-grid">
+          <div class="section-label">
+            <span class="section-number">02</span>
+            <span>MY TOOLKIT</span>
+          </div>
+          <div class="section-content">
+            <p class="section-kicker">Skills & technologies</p>
+            <h2>The tools I use<br class="desktop-break" /> to bring ideas to life.</h2>
+            <ul class="skill-list" aria-label="Technical skills">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>Django</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="container">
+          <div class="section-grid projects-heading">
+            <div class="section-label">
+              <span class="section-number">03</span>
+              <span>SELECTED WORK</span>
+            </div>
+            <div class="section-content">
+              <p class="section-kicker">A couple of things I’ve built</p>
+              <h2>Ideas, made real.</h2>
+            </div>
+          </div>
+          <div class="project-grid">
+            <article class="project-card project-brew">
+              <div class="project-topline"><span>01 / WEB EXPERIENCE</span><span aria-hidden="true">↗</span></div>
+              <div class="project-art brew-art" aria-hidden="true">
+                <span class="brew-sun"></span>
+                <span class="brew-cup">b.</span>
+                <span class="brew-label">GOOD COFFEE<br />GOOD COMPANY</span>
+              </div>
+              <div class="project-info">
+                <div>
+                  <h3>Brew &amp; Bean</h3>
+                  <p>A warm, welcoming coffee shop experience designed to make discovering a new favorite feel easy.</p>
+                </div>
+                <a
+                  class="project-link"
+                  href="https://github.com/search?q=Brew+%26+Bean&type=repositories"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Search GitHub for Brew and Bean repositories"
+                  title="Search GitHub for Brew & Bean"
+                >Find project <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+            <article class="project-card project-connectly">
+              <div class="project-topline"><span>02 / WEB APPLICATION</span><span aria-hidden="true">↗</span></div>
+              <div class="project-art connectly-art" aria-hidden="true">
+                <span class="connect-node node-one"></span>
+                <span class="connect-node node-two"></span>
+                <span class="connect-node node-three"></span>
+                <span class="connect-node node-four"></span>
+                <span class="connect-line line-one"></span>
+                <span class="connect-line line-two"></span>
+                <span class="connect-line line-three"></span>
+                <span class="connect-word">connectly<span>.</span></span>
+              </div>
+              <div class="project-info">
+                <div>
+                  <h3>CONNECTLY</h3>
+                  <p>A community-focused platform concept that brings people together through a simple, friendly interface.</p>
+                </div>
+                <a
+                  class="project-link"
+                  href="https://github.com/search?q=CONNECTLY&type=repositories"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Search GitHub for CONNECTLY repositories"
+                  title="Search GitHub for CONNECTLY"
+                >Find project <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="container contact-content">
+          <div class="section-label contact-label">
+            <span class="section-number">04</span>
+            <span>CONTACT</span>
+          </div>
+          <p class="section-kicker">Have something in mind?</p>
+          <h2>Let’s make it<br />happen<span class="accent">.</span></h2>
+          <p class="contact-intro">I’d love to hear what you’re working on. Feel free to reach out.</p>
+          <div class="contact-links">
+            <a href="mailto:" title="Opens a blank email draft; no email address was provided">Email <span aria-hidden="true">↗</span></a>
+            <a href="https://www.linkedin.com/search/results/people/?keywords=Kattumukkala%20Poornasai" target="_blank" rel="noreferrer" title="Search LinkedIn for Kattumukkala Poornasai">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/search?q=Kattumukkala+Poornasai&type=users" target="_blank" rel="noreferrer" title="Search GitHub for Kattumukkala Poornasai">GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <footer class="site-footer container">
+          <a class="brand footer-brand" href="#home" aria-label="Back to Kattumukkala Poornasai home">KP<span>.</span></a>
+          <p>Designed &amp; built by Kattumukkala Poornasai</p>
+          <a class="back-to-top" href="#home">Back to top ↑</a>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
